@@ -4,8 +4,248 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Junge&display=swap');
+        html {
+        scroll-behavior: smooth;
+    }
+
+    *{box-sizing: border-box;}
+
+
+    body{background-color: black;
+    margin: 0;
+    color: white;
+    width: 1280px}
+   
+    .wrap {}
+    
+    ul, p, h2{margin: 0}
+
+    img{width: 100%;
+    display: block;}
+
+    header {
+   
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom, #242424, black);
+  
+}
+    
+    .logo-image {margin: 30px 50px ;
+        padding: 0px;
+      
+        background-image: url(logo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+        width: 220px;
+        height: 80px;
+
+    }
+
+
+  
+    
+
+    nav {margin-left: auto;
+    margin-right: 50px;}
+
+    nav ul{ 
+        list-style: none;
+        display:flex;
+        gap: 20px;}
+
+    nav a {text-decoration: none;
+    color: #6FDAF4;}
+
+    nav a:hover { color: white;
+    }
+
+
+
+
+    main{background-image: url(miyazaki.png);
+    width: 1280px;
+    height: 620px;
+    background-size: 103%;
+    padding-top: 200px;
+    padding-left: 600px;
+    margin-bottom: 0%;
+    }
+    
+    .main-title {font-size: 70px;
+        font-family: "Junge", serif;
+    margin-bottom: 40px;}
+
+
+    .main-intro {  font-family: "Junge", serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 500px;
+    line-height: 26px;}
+
+    .main-2 {background-image: url(tahaka拷貝.png);
+    width: 1280px;
+    height: 620px;
+    background-size: 103%;
+    padding-top: 200px;
+    padding-left: 100px;
+    margin-bottom: 0%;
+    background-color: white;
+    }
+   
+    section{margin-left: 0;
+        margin-bottom: 0px;
+        padding-left: 50px
+        ;
+        padding-top: 80px;
+        padding-bottom:0px;
+    display: flex;
+    height: 700px;
+    background-color: #171717;}
+
+    .film {width: 270px;
+
+        position:relative;   
+        overflow:hidden;   
+    padding-left: 30px;}
+
+    .film-image{ margin-bottom: 30px;
+        height: 260px;
+        overflow: hidden;
+    }
+
+    .film-title {font-family: "Junge", serif;
+    margin-bottom: 10px;
+    font-size: 21px;
+    line-height: 28px;
+    }
+
+    .film-intro{font-family: "Junge", serif;
+    margin-bottom: 20px;
+    margin-bottom: 70px;
+    line-height: 22px;
+    }
+
+    
+
+    .film-more{
+        color: #6FDAF4;
+       text-align: right;
+       margin-right: 10px;
+       margin-bottom: 30px
+    }
+
+    .film-more:hover {color: white;}
+    
+ .copyright{ background: linear-gradient(to bottom , #171717, #000000);
+    text-align:center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+ 
+
+</style> 
 </head>
 <body>
-    <h1>congratsssssss!</h1>
+
+    <div class="wrap">
+        <header> 
+            <div class="logo-image"></div>
+           <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Films</a></li>
+                <li><a href="#">Directors</a></li>
+                <li><a href="#">Art</a></li>
+            </ul>
+         
+        </header> 
+    <main>
+        <h2 class="main-title">Miyazaki Hayao</h2>
+        <p class="main-intro">Miyazaki Hayao  ( born January 5, 1941, Tokyo, Japan ) is an influential Japanese anime director whose lyrical and allusive works have won both critical ＆ popular acclaim. 
+
+            His notable films   include Princess Mononoke (1997),Spirited Away (2001), Howl’s Moving Castle (2004),  and The Boy and the Heron (2023).</p>
+    </main>
+
+    <section>
+        <div class="film">
+            <div class="film-image"><img src="naussica.jpg"></div>
+            <div class="film-title">Naussica<br>(1984)</div>
+            <div class="film-intro">Set one thousand years from now, the Earth is ravaged by pollution and war. In the Valley of the Wind lives Nausicaä, Princess of her people.</div>
+            <div class="film-more">More ></div>
+        </div>
+        <div class="film">
+            <div class="film-image"><img src="mononoke.jpg"></div>
+            <div class="film-title">Mononoke<br>(1997)</div>
+            <div class="film-intro">On a journey to find the cure for a Tatarigami's curse, Ashitaka finds himself in the middle of a war between the forest gods and Tatara...</div>
+            <div class="film-more">More ></div>
+        </div>
+        <div class="film">
+            <div class="film-image"><img src="spirited away.png"></div>
+            <div class="film-title">Spirted Away<br>(2001)</div>
+            <div class="film-intro">A sullen 10-year-old girl wanders into a world ruled by gods, witches and spirits, and where humans are changed into beasts.</div>
+            <div class="film-more">More ></div>
+
+        </div>
+
+        <div class="film">
+            <div class="film-image"><img src="howl.jpg"></div>
+            <div class="film-title">Howl's Moving Castle (1984)</div>
+            <div class="film-intro">When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with...</div>
+            <div class="film-more">More ></div>
+        </div>
+    </section>
+
+    </div>
+
+    <div class="header2"></div>
+
+    <div class="main-2">
+        <h2 class="main-title">Takahata Isao</h2>
+        <p class="main-intro">MIsao Takahata (高畑 勲, Takahata Isao, October 29, 1935 – April 5, 2018) was a Japanese director, screenwriter and producer. A co-founder of Studio Ghibli, 
+            he earned international critical acclaim for his work as a director of Japanese animated feature films. </p>
+        </div>
+
+        <section>
+            <div class="film">
+                <div class="film-image"><img src="hotaru拷貝.jpg"></div>
+                <div class="film-title">Grave of the fireflies<br>(1988)</div>
+                <div class="film-intro">A young boy and his little sister struggle to survive in Japan during World War II.
+                </div>
+                <div class="film-more">More ></div>
+            </div>
+            <div class="film">
+                <div class="film-image"><img src="gorogoro.png"></div>
+                <div class="film-title">Only Yesterday<br>(1991)</div>
+                <div class="film-intro">A twenty-seven-year-old office worker travels to the countryside while reminiscing...</div>
+                <div class="film-more">More ></div>
+            </div>
+            <div class="film">
+                <div class="film-image"><img src="Ponpoko.png"></div>
+                <div class="film-title">Ponpoko<br>(2001)</div>
+                <div class="film-intro">A community of magical shape-shifting raccoon dogs struggle to prevent their forest ...</div>
+                <div class="film-more">More ></div>
+    
+            </div>
+    
+            <div class="film">
+                <div class="film-image"><img src="Kaguya.png"></div>
+                <div class="film-title">The Tale of The Princess Kaguya (2013)</div>
+                <div class="film-intro">Kaguya is a beautiful young woman coveted by five nobles. To try to avoid marrying a ...</div>
+                <div class="film-more">More ></div>
+            </div>
+        </section>
+
+        <div class="copyright">Copyright © 2024 Danny Peng. All rights reserved.</div>
+    
+        </div>
+
+
+    
+    
 </body>
 </html>
